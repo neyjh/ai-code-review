@@ -20,7 +20,7 @@ jobs:
         id: prompt
         uses: juliangruber/read-file-action@v1
         with:
-          path: .github/workflow/code-review-prompt.txt
+          path: .github/workflows/code-review-prompt.txt
 
       - name: Run GPT-4 Code Review
         uses: anc95/ChatGPT-CodeReview@main
